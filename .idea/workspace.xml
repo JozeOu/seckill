@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5ceab44-8b3c-4135-9333-6a4fe81bb00c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -61,9 +60,9 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="75">
-                <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="575">
+                <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
               </first_editor>
               <second_editor />
             </state>
@@ -343,7 +342,7 @@
       <workItem from="1556700070451" duration="5106000" />
       <workItem from="1556729625646" duration="1167000" />
       <workItem from="1556760502039" duration="17420000" />
-      <workItem from="1556851012709" duration="15162000" />
+      <workItem from="1556851012709" duration="20385000" />
     </task>
     <task id="LOCAL-00001" summary="DAO层和Service层">
       <created>1556886751271</created>
@@ -352,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1556886751272</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加README">
+      <created>1556888563448</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1556888563448</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -388,7 +394,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78579000" />
+    <option name="totallyTimeSpent" value="83802000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -401,6 +407,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" x="862" y="70" width="258" height="939" id="Project" order="0" sideWeight="0.49784946" visible="true" weight="0.18699732" />
       <window_info id="Structure" order="1" sideWeight="0.50107527" side_tool="true" weight="0.31257078" />
@@ -475,7 +482,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DAO层和Service层" />
-    <option name="LAST_COMMIT_MESSAGE" value="DAO层和Service层" />
+    <MESSAGE value="添加README" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加README" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -909,9 +917,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="75">
-            <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="575">
+            <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           </first_editor>
           <second_editor />
         </state>
