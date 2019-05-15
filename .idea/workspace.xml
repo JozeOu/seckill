@@ -7,10 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5ceab44-8b3c-4135-9333-6a4fe81bb00c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/seckill/dao/cache/RedisDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/seckill/dao/cache/RedisDaoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/seckill/web/SeckillController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/seckill/web/SeckillController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/detail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/script/seckill.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/script/seckill.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/seckill/service/impl/SeckillServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/seckill/service/impl/SeckillServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,13 +50,6 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="seckill: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="seckill@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="seckill: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="seckill: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
@@ -64,37 +60,33 @@
     <favorites_list name="seckill" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="164" column="20" selection-start-line="164" selection-start-column="20" selection-end-line="164" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="178">
+                <caret line="8" column="62" lean-forward="true" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/script/seckill.js">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/seckill/service/impl/SeckillServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-510">
-              <caret line="51" column="27" lean-forward="true" selection-start-line="51" selection-start-column="27" selection-end-line="52" selection-end-column="23" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#470#615#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/detail.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/seckill/web/SeckillController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="62" column="55" selection-start-line="62" selection-start-column="55" selection-end-line="62" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="900">
+              <caret line="79" column="25" lean-forward="true" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -106,9 +98,9 @@
       <list>
         <option value="Interface" />
         <option value="Enum" />
-        <option value="JUnit4 Test Class" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -128,7 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
         <option value="$PROJECT_DIR$/src/test/java/org/seckill/dao/SeckillDaoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/seckill/dao/SeckillDao.java" />
@@ -145,16 +136,13 @@
         <option value="030245b8-0dc6-4f91-b634-9730543da87a/schema/seckill/table/seckill.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/SeckillDao.xml" />
         <option value="$PROJECT_DIR$/src/main/java/org/seckill/enums/SeckillState.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/spring-service.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/org/seckill/service/impl/SeckillServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/seckill/service/impl/SeckillServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/seckill/service/SeckillService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/src/main/java/org/seckill/dto/Exposer.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/seckill/dto/SeckillExecution.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/seckill/service/SeckillServiceTest.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/org/seckill/dto/SeckillResult.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/common/head.jsp" />
@@ -164,6 +152,12 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/detail.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/org/seckill/web/SeckillController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/script/seckill.js" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/seckill/dao/cache/RedisDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/org/seckill/dao/cache/RedisDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/seckill/service/impl/SeckillServiceImpl.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -199,10 +193,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1147" />
-    <option name="y" value="167" />
-    <option name="width" value="1212" />
-    <option name="height" value="794" />
+    <option name="x" value="55" />
+    <option name="width" value="943" />
+    <option name="height" value="1087" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -212,6 +205,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,22 +213,10 @@
               <item name="seckill" type="b2602c69:ProjectViewProjectNode" />
               <item name="seckill" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="seckill" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seckill" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seckill" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seckill" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -260,6 +242,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.seckill.dao.cache" />
       <recent name="org.seckill.service" />
       <recent name="org.seckill.service.impl" />
       <recent name="org.seckill.dao" />
@@ -280,7 +263,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.detail.jsp">
+  <component name="RunManager" selected="JUnit.SeckillServiceTest.testSeckillLogic">
+    <configuration name="RedisDaoTest.TestGetAndPutSeckill" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seckill" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.seckill.dao.cache.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.seckill.dao.cache" />
+      <option name="MAIN_CLASS_NAME" value="org.seckill.dao.cache.RedisDaoTest" />
+      <option name="METHOD_NAME" value="TestGetAndPutSeckill" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SeckillServiceTest.executeSeckill" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seckill" />
       <extension name="coverage">
@@ -292,22 +291,6 @@
       <option name="PACKAGE_NAME" value="org.seckill.service" />
       <option name="MAIN_CLASS_NAME" value="org.seckill.service.SeckillServiceTest" />
       <option name="METHOD_NAME" value="executeSeckill" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SeckillServiceTest.testExportSeckillUrl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="seckill" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.seckill.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.seckill.service" />
-      <option name="MAIN_CLASS_NAME" value="org.seckill.service.SeckillServiceTest" />
-      <option name="METHOD_NAME" value="testExportSeckillUrl" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -612,19 +595,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.SeckillServiceTest.executeSeckill" />
-      <item itemvalue="JUnit.SeckillServiceTest.testExportSeckillUrl" />
       <item itemvalue="JUnit.SeckillServiceTest.testSeckillLogic" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.19" />
       <item itemvalue="Tomcat Server.list.jsp" />
       <item itemvalue="Tomcat Server.detail.jsp" />
+      <item itemvalue="JUnit.RedisDaoTest.TestGetAndPutSeckill" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SeckillServiceTest.testSeckillLogic" />
+        <item itemvalue="JUnit.RedisDaoTest.TestGetAndPutSeckill" />
         <item itemvalue="Tomcat Server.detail.jsp" />
         <item itemvalue="Tomcat Server.list.jsp" />
-        <item itemvalue="JUnit.SeckillServiceTest.testSeckillLogic" />
         <item itemvalue="JUnit.SeckillServiceTest.executeSeckill" />
-        <item itemvalue="JUnit.SeckillServiceTest.testExportSeckillUrl" />
       </list>
     </recent_temporary>
   </component>
@@ -650,7 +633,9 @@
       <workItem from="1556851012709" duration="20600000" />
       <workItem from="1556938143352" duration="24063000" />
       <workItem from="1557236048167" duration="173000" />
-      <workItem from="1557452672255" duration="4161000" />
+      <workItem from="1557452672255" duration="5323000" />
+      <workItem from="1557491313080" duration="567000" />
+      <workItem from="1557716302291" duration="9346000" />
     </task>
     <task id="LOCAL-00001" summary="DAO层和Service层">
       <created>1556886751271</created>
@@ -694,19 +679,17 @@
       <option name="project" value="LOCAL" />
       <updated>1556988122543</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="实现计时和秒杀交互">
+      <created>1557456894514</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1557456894514</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SeckillServiceTest_testExportSeckillUrl - 2019.05.03 at 13h 34m 59s.xml">
-      <configuration name="SeckillServiceTest.testExportSeckillUrl" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SeckillServiceTest_testExportSeckillUrl - 2019.05.03 at 13h 38m 28s.xml">
-      <configuration name="SeckillServiceTest.testExportSeckillUrl" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SeckillServiceTest_testGetById - 2019.05.03 at 13h 40m 03s.xml">
-      <configuration name="SeckillServiceTest.testGetById" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SeckillServiceTest_testGetById - 2019.05.03 at 13h 44m 18s.xml">
       <configuration name="SeckillServiceTest.testGetById" configurationId="JUnit" />
     </history-entry>
@@ -728,9 +711,18 @@
     <history-entry file="SeckillServiceTest_testSeckillLogic - 2019.05.03 at 14h 01m 15s.xml">
       <configuration name="SeckillServiceTest.testSeckillLogic" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RedisDaoTest_TestGetAndPutSeckill - 2019.05.14 at 13h 07m 52s.xml">
+      <configuration name="RedisDaoTest.TestGetAndPutSeckill" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SeckillServiceTest_testSeckillLogic - 2019.05.14 at 14h 35m 47s.xml">
+      <configuration name="SeckillServiceTest.testSeckillLogic" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SeckillServiceTest_testSeckillLogic - 2019.05.14 at 14h 36m 23s.xml">
+      <configuration name="SeckillServiceTest.testSeckillLogic" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112414000" />
+    <option name="totallyTimeSpent" value="123489000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -742,9 +734,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="-8" width="1873" height="1096" extended-state="6" />
+    <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" x="862" y="70" width="258" height="939" id="Project" order="0" sideWeight="0.49784946" visible="true" weight="0.15940431" />
+      <window_info active="true" content_ui="combo" x="862" y="70" width="258" height="939" id="Project" order="0" sideWeight="0.49784946" visible="true" weight="0.14718853" />
       <window_info id="Structure" order="1" sideWeight="0.50107527" side_tool="true" weight="0.31257078" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -754,13 +746,13 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4371002" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39892474" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4371002" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39872068" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32903227" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3290735" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3283582" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3290735" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
@@ -775,7 +767,7 @@
       <window_info anchor="right" id="Maven" order="3" weight="0.3295583" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.2559294" />
+      <window_info anchor="right" id="Database" order="6" weight="0.2559294" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
@@ -822,7 +814,26 @@
     <MESSAGE value="修改 README" />
     <MESSAGE value="实现Restful接口，开发页面结构" />
     <MESSAGE value="实现 cookie 交互" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现 cookie 交互" />
+    <MESSAGE value="实现计时和秒杀交互" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现计时和秒杀交互" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/seckill/dao/cache/RedisDaoTest.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/seckill/service/SeckillServiceTest.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -863,16 +874,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../../../MavenLocalRepo/org/springframework/spring-beans/4.1.7.RELEASE/spring-beans-4.1.7.RELEASE.jar!/org/springframework/beans/factory/config/PlaceholderConfigurerSupport.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/sql/schema.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="33" column="78" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/seckill/entity/SuccessKilled.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -1144,16 +1145,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org/seckill/service/impl/SeckillServiceImplTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/seckill/dao/SeckillDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/seckill/service/SeckillService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="77">
@@ -1178,30 +1169,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/seckill/dao/SuccessKilledDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="20" selection-start-line="20" selection-end-line="21" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/seckill/service/impl/SeckillServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="87" column="28" selection-start-line="87" selection-start-column="28" selection-end-line="87" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/seckill/service/SeckillServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/seckill/dto/SeckillExecution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
@@ -1216,30 +1183,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1425">
           <caret line="91" column="18" selection-start-line="91" selection-start-column="18" selection-end-line="91" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4333">
-          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="452">
-            <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="7" selection-end-column="74" />
         </state>
       </provider>
     </entry>
@@ -1306,23 +1249,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/detail.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/seckill/web/SeckillController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="62" column="55" selection-start-line="62" selection-start-column="55" selection-end-line="62" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://030245b8-0dc6-4f91-b634-9730543da87a/schema/seckill/table/seckill">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1332,14 +1258,117 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://030245b8-0dc6-4f91-b634-9730543da87a/schema/seckill/table/success_killed">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/detail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/seckill/web/SeckillController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="838">
+          <caret line="62" column="55" selection-start-line="62" selection-start-column="55" selection-end-line="62" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/script/seckill.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-510">
-          <caret line="51" column="27" lean-forward="true" selection-start-line="51" selection-start-column="27" selection-end-line="52" selection-end-column="23" />
+        <state relative-caret-position="315">
+          <caret line="84" column="62" selection-start-line="84" selection-start-column="62" selection-end-line="84" selection-end-column="62" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#470#615#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/seckill/dao/SeckillDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="689">
+          <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="710">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/seckill/dao/cache/RedisDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/seckill/dao/cache/RedisDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/seckill/dao/SuccessKilledDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-261">
+          <caret line="20" selection-start-line="20" selection-end-line="21" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/seckill/service/SeckillServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="164" column="20" selection-start-line="164" selection-start-column="20" selection-end-line="164" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="178">
+            <caret line="8" column="62" lean-forward="true" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/seckill/service/impl/SeckillServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="79" column="25" lean-forward="true" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
         </state>
       </provider>
     </entry>
