@@ -13,8 +13,6 @@ import static org.junit.Assert.*;
 /**
  * @author ourzh
  * @version 1.0.0
- * @ClassName RedisDaoTest.java
- * @Description TODO
  * @createTime 2019年05月14日 12:49:00
  */
 @RunWith(SpringJUnit4ClassRunner.class)

@@ -13,8 +13,6 @@ import static org.junit.Assert.*;
 /**
  * @author ourzh
  * @version 1.0.0
- * @ClassName SuccessKilledDaoTest.java
- * @Description TODO
  * @createTime 2019年04月30日 14:41:00
  */
 

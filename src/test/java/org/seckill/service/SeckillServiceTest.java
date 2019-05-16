@@ -20,8 +20,6 @@ import static org.junit.Assert.*;
 /**
  * @author ourzh
  * @version 1.0.0
- * @ClassName SeckillServiceTest.java
- * @Description TODO
  * @createTime 2019年05月03日 13:16:00
  */
 @RunWith(SpringJUnit4ClassRunner.class)
