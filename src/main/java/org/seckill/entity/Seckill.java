@@ -5,8 +5,6 @@ import java.util.Date;
 /**
  * @author ourzh
  * @version 1.0.0
- * @ClassName Seckill.java
- * @Description TODO
  * @createTime 2019年04月27日 13:13:00
  */
 public class Seckill {

@@ -4,10 +4,9 @@ package org.seckill.dto;
  * @author ourzh
  * @version 1.0.0
  * @ClassName SeckillResult.java
- * @Description TODO
+ * @Description 所有ajax请求的返回类型，封装json结果
  * @createTime 2019年05月04日 12:50:00
  */
-// 所有ajax请求的返回类型，封装json结果
 public class SeckillResult<T> {
     private boolean success;
     private T data;

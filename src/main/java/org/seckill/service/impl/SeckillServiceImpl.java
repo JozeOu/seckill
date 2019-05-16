@@ -25,8 +25,6 @@ import java.util.List;
 /**
  * @author ourzh
  * @version 1.0.0
- * @ClassName SeckillServiceImpl.java
- * @Description TODO
  * @createTime 2019年04月30日 23:12:00
  */
 @Service

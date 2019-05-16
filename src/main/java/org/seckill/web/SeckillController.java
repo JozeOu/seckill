@@ -21,8 +21,6 @@ import java.util.List;
 /**
  * @author ourzh
  * @version 1.0.0
- * @ClassName SeckillController.java
- * @Description TODO
  * @createTime 2019年05月04日 12:28:00
  */
 @Controller // @Service @Component

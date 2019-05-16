@@ -12,8 +12,6 @@ import redis.clients.jedis.JedisPool;
 /**
  * @author ourzh
  * @version 1.0.0
- * @ClassName RedisDao.java
- * @Description TODO
  * @createTime 2019年05月14日 12:15:00
  */
 public class RedisDao {
